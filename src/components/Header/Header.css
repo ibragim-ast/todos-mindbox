@@ -1,0 +1,25 @@
+.header {
+  width: 89%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 50px;
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  object-position: center;
+  margin-top: 20px;
+}
+
+.header__title {
+  color: #e9d9d8;
+  font-size: 100px;
+  font-family: Gruppo-Regular, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}

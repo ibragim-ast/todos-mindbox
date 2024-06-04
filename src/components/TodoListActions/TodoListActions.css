@@ -1,0 +1,52 @@
+.todo-list-actions {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.todo-list-actions__left-tasks-text {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 88px;
+}
+
+.todo-list-actions__button {
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 20px 10px;
+  height: 15px;
+  cursor: pointer;
+  transition: border-bottom 0.3s ease;
+}
+
+.todo-list-actions__button.active {
+  color: #8147f5;
+  outline: none;
+}
+.todo-list-actions__button:focus {
+  outline: none;
+}
+
+.todo-list-actions__button:hover {
+  color: #8147f5;
+  transition: color 0.3s ease;
+}
+
+.todo-list-actions__delete-button {
+  margin-left: 85px;
+  border: none;
+  font-size: 12px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todo-list-actions__delete-button:hover {
+  color: red;
+  transition: color 0.3s ease;
+}
+
+.todo-list-actions__delete-button:focus {
+  outline: none;
+}
